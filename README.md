@@ -1,8 +1,10 @@
 # Python Validators
 
-https://pypi.python.org/pypi/validators
+Original project: https://github.com/kvesteri/validators
 
-http://validators.readthedocs.io/en/latest/#
+PyPi page: https://pypi.python.org/pypi/validators
+
+Documentation:  http://validators.readthedocs.io/en/latest/#
 
 Installation
 ------------
