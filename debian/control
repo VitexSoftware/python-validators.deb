@@ -1,0 +1,30 @@
+Source: python-validators
+Section: libs
+Priority: optional
+Maintainer: Vitex Software <info@vitexsoftware.cz>
+Build-Depends: debhelper (>=10), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, python3-pytest, python-pytest, python-decorator, python3-decorator
+Standards-Version: 4.0.0
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Homepage: https://pypi.python.org/pypi/validators
+
+Package: python-validators
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+#Suggests: python-validators-doc
+Description: Python Data Validation for Humans™. (Python 2.7)
+ Python has all kinds of validation tools, but every one of 
+ them requires defining a schema. I wanted to create a simple 
+ validation library where validating a simple value does not 
+ require defining a form or a schema.
+
+Package: python3-validators
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+#Suggests: python-validators-doc
+Description: Python Data Validation for Humans™. (Python 3)
+ Python has all kinds of validation tools, but every one of 
+ them requires defining a schema. I wanted to create a simple 
+ validation library where validating a simple value does not 
+ require defining a form or a schema.
+
